@@ -635,9 +635,11 @@ p {
       height: 500px; } 
     .banner-image-desktop {
       display: none; } }
-  @media (max-width: 460px) {
+  @media only screen and (min-width: 300px) and (max-width: 460px) {
     .header-banner {
-      height: 700px; } }
+      height: 700px; }
+    .header-shape-fore {
+      display: none; } }
   .header-banner .banner-image-desktop {
     position: absolute;
     top: 0;
