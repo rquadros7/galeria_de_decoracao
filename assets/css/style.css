@@ -650,7 +650,8 @@ p {
         color: #EB3656; }
       @media (max-width: 767px) {
         .header-banner .banner-content .banner-title {
-          font-size: 38px; } }
+          font-size: 38px;
+          background-color: #fff; } }
     .header-banner .banner-content .banner-contact {
       position: relative;
       font-size: 15px;
