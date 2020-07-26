@@ -622,25 +622,13 @@ p {
 .header-banner {
   height: 700px;
   position: relative; }
-  @media (min-width: 991px) {
-    .banner-image-mobile {
-      display: none; } }
-  @media only screen and (min-width: 768px) and (max-width: 990px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-banner {
-      height: 500px; } 
-    .banner-image-desktop {
-      display: none; } }
+      height: 500px; } }
   @media (max-width: 767px) {
     .header-banner {
-      height: 500px; } 
-    .banner-image-desktop {
-      display: none; } }
-  @media only screen and (min-width: 300px) and (max-width: 460px) {
-    .header-banner {
-      height: 700px; }
-    .header-shape-fore {
-      display: none; } }
-  .header-banner .banner-image-desktop {
+      height: 500px; } }
+  .header-banner .banner-image {
     position: absolute;
     top: 0;
     right: 0;
